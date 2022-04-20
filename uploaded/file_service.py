@@ -15,3 +15,4 @@ def readRemoteFile(location, token):
 def writeYamlFile(content, fileName) :
     with open(fileName, 'w') as file:
         yaml.dump(content, file)
+#########################
